@@ -1,0 +1,12 @@
+create a pssword for the root user -
+
+]\ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
+FLUSH PRIVILEGES;
+
+|using dbsql to run -
+
+SOURCE /path/to/student_management.sql;
+
+SHOW DATABASES;
+USE student_management;
+SHOW TABLES;
